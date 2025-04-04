@@ -5,7 +5,7 @@ GitHub Activity Tracker is a lightweight Go application that allows you to quick
 ## Features
 
 - Fetch the most recent GitHub activities of any public user
-- Display activities with timestamps and descriptive emoji indicators
+- Display activities with timestamps
 - Support for various GitHub event types (PushEvent, CreateEvent, IssueEvent, etc.)
 - Simple interface with clear error handling
 - No external dependencies - uses only Go standard library
