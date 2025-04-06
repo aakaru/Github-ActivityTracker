@@ -82,9 +82,7 @@ func displayEvents(events []Event) {
 		if i >= 10 {
 			break
 		}
-		timeStr := event.CreatedAt.Format("Jan 02, 2006 15:04")
-		description := getEventDescription(event)
-		fmt.Printf("[%s] %s\n", timeStr, description)
+		
 	}
 }
 
