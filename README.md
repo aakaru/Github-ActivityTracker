@@ -1,52 +1,47 @@
-# GitHub Activity Tracker
+# 🔍 GitHub Activity Tracker
 
 GitHub Activity Tracker is a Go application that allows you to quickly check a GitHub user's recent activity directly from your terminal. It uses GitHub's public API to fetch user events and presents them in a readable format.
 
-## Features
+## ✨ Features
 
-- Fetch the most recent GitHub activities of any public user
-- Display activities with timestamps
-- Support for various GitHub event types (PushEvent, CreateEvent, IssueEvent, etc.)
-- Simple interface with clear error handling
-- No external dependencies - uses only Go standard library
+-  Fetch the most recent GitHub activities of any public user
+-  Display activities with timestamps
+-  Support for various GitHub event types (PushEvent, CreateEvent, IssueEvent, etc.)
+-  Simple interface with clear error handling
+-  No external dependencies - uses only Go standard library
 
-## Installation
+## 📥 Installation
 
-### Prerequisites
+### 🔧 Prerequisites
 
-- Go 1.16 or higher
+-  Go 1.16 or higher
 
 ### Building from Source
 
 1. Clone this repository or download the source code:
-
 ```bash
 git clone https://github.com/yourusername/github-activity-cli.git
 cd github-activity-cli
 ```
 
 2. Build the application:
-
 ```bash
 go build -o github-activity main.go
 ```
 
 3. (Optional) Move the binary to a directory in your PATH for easier access:
-
 ```bash
 sudo mv github-activity /usr/local/bin/
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the application by providing a GitHub username as an argument:
-
 ```bash
 github-activity aakaru
 ```
 
 Example output:
-
 ```
 Recent GitHub Activity:
 ----------------------
@@ -57,17 +52,17 @@ Recent GitHub Activity:
 [Mar 27, 2025 16:08]  aakaru starred popular/repository
 ```
 
-## Error Handling
+## ⚠️ Error Handling
 
 The CLI handles common errors such as:
-- Invalid usernames
-- Network connection issues
-- API request failures
+-  Invalid usernames
+-  Network connection issues
+-  API request failures
 
-## License
+## 📜 License
 
-[MIT License](LICENSE)
+See the [LICENSE](LICENSE) file for more details.
 
-## Contributing
+## 👥 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
