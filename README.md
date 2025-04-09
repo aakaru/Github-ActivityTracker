@@ -1,4 +1,4 @@
-# 🔍 GitHub Activity Tracker
+#  GitHub Activity Tracker
 
 GitHub Activity Tracker is a Go application that allows you to quickly check a GitHub user's recent activity directly from your terminal. It uses GitHub's public API to fetch user events and presents them in a readable format.
 
