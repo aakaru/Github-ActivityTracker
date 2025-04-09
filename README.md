@@ -12,7 +12,7 @@ GitHub Activity Tracker is a Go application that allows you to quickly check a G
 
 ## 📥 Installation
 
-### 🔧 Prerequisites
+###  Prerequisites
 
 -  Go 1.16 or higher
 
