@@ -100,6 +100,10 @@ func getEventDescription(event Event) string {
 		return fmt.Sprintf("%s updated a pull request in %s", event.Actor.Login, event.Repo.Name)
 	case "IssueCommentEvent":
 		return fmt.Sprintf("%s commented on an issue in %s", event.Actor.Login, event.Repo.Name)
+	case "WatchEvent":
+		return fmt.Sprintf("%s starred %s", event.Actor.Login, event.Repo.Name)
+	case "ForkEvent":
+		return fmt.Sprintf("%s forked %s", event.Actor.Login, event.Repo.Name)	
 	case "DeletionEvent":
 		return fmt.Sprintf("%s deleted something in %s", event.Actor.Login, event.Repo.Name)
 	case "CommitCommentEvent":
